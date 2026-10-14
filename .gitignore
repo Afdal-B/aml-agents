@@ -1,0 +1,7 @@
+.env
+.venv
+.github
+data/
+.vscode/
+.pytest_cache/
+__pycache__/

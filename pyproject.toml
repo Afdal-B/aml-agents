@@ -1,0 +1,26 @@
+[project]
+name = "aml-agents"
+version = "0.1.0"
+description = "this project is about the creation of agents for Anti-Money Laundering"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-google-genai>=4.4.1",
+    "langgraph>=1.2.14",
+    "langgraph-cli[inmem]>=0.4.33",
+]
+
+[project.scripts]
+aml-agents = "aml_agents:main"
+
+[build-system]
+requires = ["uv_build>=0.12.15,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
+
+[tool.pytest.ini_options]
+markers = ["reseau: test qui consomme du quota LLM"]
