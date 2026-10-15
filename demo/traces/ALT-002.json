@@ -1,0 +1,785 @@
+{
+  "alerte_id": "ALT-002",
+  "modele": "gemini-3.1-flash-lite",
+  "date": "2026-10-15",
+  "appels_modele": 3,
+  "evenements": [
+    {
+      "type": "appel",
+      "outil": "profil_client",
+      "args": {
+        "client_id": "CLI-005"
+      }
+    },
+    {
+      "type": "appel",
+      "outil": "info_contrepartie",
+      "args": {
+        "nom": "ASSOCIATION SOCIO-CULTURELLE LES TERRASSES"
+      }
+    },
+    {
+      "type": "appel",
+      "outil": "historique_client",
+      "args": {
+        "client_id": "CLI-005",
+        "jours": 730,
+        "sens": "credit"
+      }
+    },
+    {
+      "type": "appel",
+      "outil": "historique_client",
+      "args": {
+        "client_id": "CLI-005",
+        "mode": "especes",
+        "jours": 730,
+        "sens": "debit"
+      }
+    },
+    {
+      "type": "resultat",
+      "outil": "profil_client",
+      "contenu": {
+        "id": "CLI-005",
+        "nom": "Julien Morel",
+        "type_compte": "individuel",
+        "metier": "Directeur administratif",
+        "revenu_mensuel_declare": 3300,
+        "revenu_annuel_avis_imposition": 39600,
+        "patrimoine_declare": 15000,
+        "pays_residence": "FR",
+        "solde_initial": 2000,
+        "situation_declaree": "Salarié de l'association socio-culturelle Les Terrasses (directeur administratif). Avance les frais des événements annuels de l'association, remboursés sur justificatifs."
+      }
+    },
+    {
+      "type": "resultat",
+      "outil": "info_contrepartie",
+      "contenu": {
+        "nom": "ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+        "type": "association",
+        "pays": "FR",
+        "informations": {
+          "forme_juridique": "Association loi 1901",
+          "secteur_activite": "Animation socio-culturelle",
+          "annee_creation": 2008,
+          "financement": "Subventions et dons",
+          "seuil_publication_comptes": 153000,
+          "commissaire_aux_comptes_designe": true,
+          "comptes_publies_joafe": true
+        }
+      }
+    },
+    {
+      "type": "resultat",
+      "outil": "historique_client",
+      "contenu": {
+        "client_id": "CLI-005",
+        "du": "2024-10-01",
+        "au": "2026-09-30",
+        "nombre_transactions": 26,
+        "montant_total": 88700.0,
+        "tronque": false,
+        "transactions": [
+          {
+            "id": "TX-002361",
+            "client_id": "CLI-005",
+            "date": "2026-09-28",
+            "montant": 3300.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "contrepartie": "ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-002340",
+            "client_id": "CLI-005",
+            "date": "2026-09-22",
+            "montant": 5400.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR REMBOURSEMENT FRAIS EVENEMENT",
+            "contrepartie": "ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-002256",
+            "client_id": "CLI-005",
+            "date": "2026-08-28",
+            "montant": 3300.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "contrepartie": "ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-002152",
+            "client_id": "CLI-005",
+            "date": "2026-07-28",
+            "montant": 3300.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "contrepartie": "ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-002038",
+            "client_id": "CLI-005",
+            "date": "2026-06-26",
+            "montant": 3300.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "contrepartie": "ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001945",
+            "client_id": "CLI-005",
+            "date": "2026-05-28",
+            "montant": 3300.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "contrepartie": "ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001843",
+            "client_id": "CLI-005",
+            "date": "2026-04-28",
+            "montant": 3300.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "contrepartie": "ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001743",
+            "client_id": "CLI-005",
+            "date": "2026-03-27",
+            "montant": 3300.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "contrepartie": "ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001643",
+            "client_id": "CLI-005",
+            "date": "2026-02-27",
+            "montant": 3300.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "contrepartie": "ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001560",
+            "client_id": "CLI-005",
+            "date": "2026-01-28",
+            "montant": 3300.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "contrepartie": "ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001461",
+            "client_id": "CLI-005",
+            "date": "2025-12-26",
+            "montant": 3300.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "contrepartie": "ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001362",
+            "client_id": "CLI-005",
+            "date": "2025-11-28",
+            "montant": 3300.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "contrepartie": "ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001260",
+            "client_id": "CLI-005",
+            "date": "2025-10-28",
+            "montant": 3300.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "contrepartie": "ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001154",
+            "client_id": "CLI-005",
+            "date": "2025-09-26",
+            "montant": 3300.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "contrepartie": "ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001055",
+            "client_id": "CLI-005",
+            "date": "2025-08-28",
+            "montant": 3300.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "contrepartie": "ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000965",
+            "client_id": "CLI-005",
+            "date": "2025-07-28",
+            "montant": 3300.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "contrepartie": "ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000864",
+            "client_id": "CLI-005",
+            "date": "2025-06-27",
+            "montant": 3300.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "contrepartie": "ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000854",
+            "client_id": "CLI-005",
+            "date": "2025-06-24",
+            "montant": 4100.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR REMBOURSEMENT FRAIS EVENEMENT",
+            "contrepartie": "ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000766",
+            "client_id": "CLI-005",
+            "date": "2025-05-28",
+            "montant": 3300.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "contrepartie": "ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000668",
+            "client_id": "CLI-005",
+            "date": "2025-04-28",
+            "montant": 3300.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "contrepartie": "ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000576",
+            "client_id": "CLI-005",
+            "date": "2025-03-28",
+            "montant": 3300.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "contrepartie": "ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000483",
+            "client_id": "CLI-005",
+            "date": "2025-02-28",
+            "montant": 3300.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "contrepartie": "ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000387",
+            "client_id": "CLI-005",
+            "date": "2025-01-28",
+            "montant": 3300.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "contrepartie": "ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000289",
+            "client_id": "CLI-005",
+            "date": "2024-12-27",
+            "montant": 3300.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "contrepartie": "ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000193",
+            "client_id": "CLI-005",
+            "date": "2024-11-28",
+            "montant": 3300.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "contrepartie": "ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000096",
+            "client_id": "CLI-005",
+            "date": "2024-10-28",
+            "montant": 3300.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "contrepartie": "ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+            "pays_contrepartie": "FR"
+          }
+        ]
+      }
+    },
+    {
+      "type": "resultat",
+      "outil": "historique_client",
+      "contenu": {
+        "client_id": "CLI-005",
+        "du": "2024-10-01",
+        "au": "2026-09-30",
+        "nombre_transactions": 35,
+        "montant_total": 2110.0,
+        "tronque": false,
+        "transactions": [
+          {
+            "id": "TX-002344",
+            "client_id": "CLI-005",
+            "date": "2026-09-23",
+            "montant": 60.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES DAB",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-002306",
+            "client_id": "CLI-005",
+            "date": "2026-09-14",
+            "montant": 80.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES DAB",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-002248",
+            "client_id": "CLI-005",
+            "date": "2026-08-27",
+            "montant": 60.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES DAB",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-002189",
+            "client_id": "CLI-005",
+            "date": "2026-08-12",
+            "montant": 50.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES DAB",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-002144",
+            "client_id": "CLI-005",
+            "date": "2026-07-27",
+            "montant": 40.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES DAB",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-002104",
+            "client_id": "CLI-005",
+            "date": "2026-07-17",
+            "montant": 50.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES DAB",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-002017",
+            "client_id": "CLI-005",
+            "date": "2026-06-20",
+            "montant": 100.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES DAB",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001884",
+            "client_id": "CLI-005",
+            "date": "2026-05-11",
+            "montant": 40.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES DAB",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001855",
+            "client_id": "CLI-005",
+            "date": "2026-05-03",
+            "montant": 80.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES DAB",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001828",
+            "client_id": "CLI-005",
+            "date": "2026-04-25",
+            "montant": 100.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES DAB",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001770",
+            "client_id": "CLI-005",
+            "date": "2026-04-08",
+            "montant": 100.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES DAB",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001676",
+            "client_id": "CLI-005",
+            "date": "2026-03-07",
+            "montant": 40.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES DAB",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001652",
+            "client_id": "CLI-005",
+            "date": "2026-03-01",
+            "montant": 50.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES DAB",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001631",
+            "client_id": "CLI-005",
+            "date": "2026-02-23",
+            "montant": 40.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES DAB",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001606",
+            "client_id": "CLI-005",
+            "date": "2026-02-14",
+            "montant": 50.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES DAB",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001543",
+            "client_id": "CLI-005",
+            "date": "2026-01-24",
+            "montant": 40.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES DAB",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001487",
+            "client_id": "CLI-005",
+            "date": "2026-01-09",
+            "montant": 40.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES DAB",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001405",
+            "client_id": "CLI-005",
+            "date": "2025-12-13",
+            "montant": 60.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES DAB",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001332",
+            "client_id": "CLI-005",
+            "date": "2025-11-20",
+            "montant": 50.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES DAB",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001184",
+            "client_id": "CLI-005",
+            "date": "2025-10-06",
+            "montant": 40.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES DAB",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001088",
+            "client_id": "CLI-005",
+            "date": "2025-09-09",
+            "montant": 80.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES DAB",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001069",
+            "client_id": "CLI-005",
+            "date": "2025-09-02",
+            "montant": 40.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES DAB",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000972",
+            "client_id": "CLI-005",
+            "date": "2025-08-03",
+            "montant": 50.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES DAB",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000947",
+            "client_id": "CLI-005",
+            "date": "2025-07-22",
+            "montant": 60.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES DAB",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000772",
+            "client_id": "CLI-005",
+            "date": "2025-06-03",
+            "montant": 50.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES DAB",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000721",
+            "client_id": "CLI-005",
+            "date": "2025-05-14",
+            "montant": 80.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES DAB",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000617",
+            "client_id": "CLI-005",
+            "date": "2025-04-13",
+            "montant": 40.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES DAB",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000490",
+            "client_id": "CLI-005",
+            "date": "2025-03-02",
+            "montant": 80.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES DAB",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000471",
+            "client_id": "CLI-005",
+            "date": "2025-02-25",
+            "montant": 40.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES DAB",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000371",
+            "client_id": "CLI-005",
+            "date": "2025-01-21",
+            "montant": 40.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES DAB",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000335",
+            "client_id": "CLI-005",
+            "date": "2025-01-13",
+            "montant": 100.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES DAB",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000276",
+            "client_id": "CLI-005",
+            "date": "2024-12-25",
+            "montant": 80.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES DAB",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000152",
+            "client_id": "CLI-005",
+            "date": "2024-11-18",
+            "montant": 100.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES DAB",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000039",
+            "client_id": "CLI-005",
+            "date": "2024-10-13",
+            "montant": 50.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES DAB",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000027",
+            "client_id": "CLI-005",
+            "date": "2024-10-10",
+            "montant": 50.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES DAB",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          }
+        ]
+      }
+    },
+    {
+      "type": "pensee",
+      "texte": "L'examen des transactions et du profil de M. Julien Morel (CLI-005) montre que les flux créditeurs provenant de l'\"ASSOCIATION SOCIO-CULTURELLE LES TERRASSES\" (identifiants TX-002361, TX-002340, etc.) correspondent à son salaire mensuel déclaré et à des remboursements de frais professionnels engagés pour le compte de l'association. Ces flux sont cohérents avec sa situation professionnelle déclarée. L'association est une structure active, dotée d'un commissaire aux comptes et publiant ses comptes au JOAFE. Aucun signal suspect n'est retenu."
+    },
+    {
+      "type": "rapport",
+      "rapport": {
+        "constats": [],
+        "synthese": "Les flux créditeurs sur le compte de M. Morel correspondent à des virements de salaire et des remboursements de frais professionnels justifiés par son activité de directeur administratif au sein de l'association. Les vérifications effectuées confirment la régularité de la contrepartie, qui est une structure structurée et transparente. Aucune anomalie n'a été détectée dans l'utilisation des fonds ou le comportement du client."
+      }
+    }
+  ]
+}

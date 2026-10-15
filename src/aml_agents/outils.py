@@ -31,7 +31,7 @@ def _client(client_id: str) -> dict:
 @tool
 def historique_client(
     client_id: str,
-    jours: int = 90,
+    jours: int = 730,
     mode: Literal["virement", "prelevement", "carte", "especes"] | None = None,
     sens: Literal["credit", "debit"] | None = None,
 ) -> dict:

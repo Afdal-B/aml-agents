@@ -12,9 +12,15 @@ def prompt_systeme() -> str:
 Une règle automatique a levé une alerte sur un client. Ta mission : enquêter avec tes outils
 et rapporter les signaux que les données justifient, avec leurs preuves.
 
-Méthode : regarde l'historique du client (entrées d'argent, retraits d'espèces, dépenses),
-son profil déclaré (revenus, avis d'imposition, patrimoine) et les informations publiques
-de la contrepartie de l'alerte. Utilise les filtres de l'historique pour cibler.
+Méthode : examine CHAQUE signal avec sa propre requête sur l'historique complet du client.
+Utilise toujours `jours=730` : l'alerte ne porte que sur 90 jours, mais les signaux se lisent
+sur toute la période. Requêtes à faire :
+- entrées d'argent : sens="credit" ;
+- retraits d'espèces : mode="especes", sens="debit" ;
+- dépenses de luxe et voyages : sens="debit".
+Complète avec le profil déclaré (revenus, avis d'imposition, patrimoine) et les informations
+publiques de la contrepartie de l'alerte. Si un résultat est `tronque`, affine par un filtre.
+N'écris ta conclusion qu'après avoir fait ces requêtes.
 
 Signaux possibles (liste fermée) :
 {liste}

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "ALT-001",
+    "client_id": "CLI-003",
+    "regle": "R1",
+    "libelle_regle": "Crédits cumulés provenant d'une même contrepartie supérieurs à 15 000 € sur 90 jours glissants",
+    "date_alerte": "2026-09-30",
+    "contrepartie": "ASSOCIATION CARITATIVE ENTRAIDE ET AVENIR",
+    "montant_cumule": 150300.0,
+    "nombre_credits": 3
+  },
+  {
+    "id": "ALT-002",
+    "client_id": "CLI-005",
+    "regle": "R1",
+    "libelle_regle": "Crédits cumulés provenant d'une même contrepartie supérieurs à 15 000 € sur 90 jours glissants",
+    "date_alerte": "2026-09-30",
+    "contrepartie": "ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+    "montant_cumule": 15300.0,
+    "nombre_credits": 4
+  }
+]

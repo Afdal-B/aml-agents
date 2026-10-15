@@ -1,0 +1,27 @@
+[
+  {
+    "id": "flux_crediteurs_incoherents_avec_activite",
+    "critere_tracfin": "Flux créditeurs incohérents avec l’activité professionnelle des clients.",
+    "portee": "client"
+  },
+  {
+    "id": "flux_incoherents_avec_avis_imposition",
+    "critere_tracfin": "Inadéquation entre les flux créditeurs des clients et leurs avis d’imposition.",
+    "portee": "client"
+  },
+  {
+    "id": "retraits_especes_importants",
+    "critere_tracfin": "Retraits en espèces successifs et pour des montants importants.",
+    "portee": "client"
+  },
+  {
+    "id": "depenses_incoherentes_avec_profil",
+    "critere_tracfin": "Dépenses incohérentes (biens de luxe, voyages) avec l’activité des clients.",
+    "portee": "client"
+  },
+  {
+    "id": "contrepartie_sans_controle_comptes",
+    "critere_tracfin": "Absence de désignation d’un commissaire aux comptes et de publication des comptes annuels au Journal officiel des associations et fondations d’entreprises (JOAFE).",
+    "portee": "contrepartie"
+  }
+]

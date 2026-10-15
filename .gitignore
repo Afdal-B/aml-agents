@@ -1,7 +1,11 @@
 .env
 .venv
 .github
-data/
 .vscode/
 .pytest_cache/
 __pycache__/
+resultats/
+scripts/
+docs/*
+!docs/baseline_agent_unique.json
+.streamlit/secrets.toml

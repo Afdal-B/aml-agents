@@ -1,0 +1,157 @@
+{
+  "avertissement": "Vérité terrain. Ne jamais la fournir aux agents (outils, prompts, exemples).",
+  "source": {
+    "titre": "LCB-FT : état de la menace 2024-2025 (tome 3 du rapport d'activité 2024)",
+    "editeur": "Tracfin (service de renseignement financier, ministère de l'Économie)",
+    "date_publication": "2025-09-29",
+    "cas": "n° 13, Détournement de fonds publics via une association",
+    "page": 38,
+    "url": "https://www.economie.gouv.fr/files/files/directions_services/tracfin/media-document/TRACFIN_2024_Tome3_FR_WEB_0.pdf",
+    "licence": "Licence Ouverte Etalab 2.0 (mention figurant sur le site de publication)"
+  },
+  "alertes": {
+    "ALT-001": {
+      "client_id": "CLI-003",
+      "verdict": "vrai_positif",
+      "designation_dans_le_rapport": "Monsieur et Madame X (association A)",
+      "signaux_attendus": [
+        "flux_crediteurs_incoherents_avec_activite",
+        "flux_incoherents_avec_avis_imposition",
+        "retraits_especes_importants",
+        "depenses_incoherentes_avec_profil",
+        "contrepartie_sans_controle_comptes"
+      ],
+      "preuves": {
+        "flux_crediteurs_incoherents_avec_activite": [
+          "TX-000531",
+          "TX-000608",
+          "TX-000732",
+          "TX-000815",
+          "TX-000907",
+          "TX-001035",
+          "TX-001781",
+          "TX-001900",
+          "TX-001978",
+          "TX-002103",
+          "TX-002201",
+          "TX-002299"
+        ],
+        "flux_incoherents_avec_avis_imposition": [
+          "TX-000531",
+          "TX-000608",
+          "TX-000732",
+          "TX-000815",
+          "TX-000907",
+          "TX-001035",
+          "TX-001781",
+          "TX-001900",
+          "TX-001978",
+          "TX-002103",
+          "TX-002201",
+          "TX-002299"
+        ],
+        "retraits_especes_importants": [
+          "TX-000590",
+          "TX-000701",
+          "TX-000727",
+          "TX-000786",
+          "TX-000800",
+          "TX-000853",
+          "TX-000883",
+          "TX-000967",
+          "TX-001000",
+          "TX-001010",
+          "TX-001073",
+          "TX-001085",
+          "TX-001119",
+          "TX-001141",
+          "TX-001167",
+          "TX-001171",
+          "TX-001186",
+          "TX-001232",
+          "TX-001237",
+          "TX-001299",
+          "TX-001834",
+          "TX-001845",
+          "TX-001874",
+          "TX-001931",
+          "TX-001943",
+          "TX-001947",
+          "TX-001953",
+          "TX-001996",
+          "TX-002024",
+          "TX-002028",
+          "TX-002036",
+          "TX-002070",
+          "TX-002086",
+          "TX-002095",
+          "TX-002122",
+          "TX-002194",
+          "TX-002212",
+          "TX-002260",
+          "TX-002286",
+          "TX-002343"
+        ],
+        "depenses_incoherentes_avec_profil": [
+          "TX-000742",
+          "TX-000764",
+          "TX-001163",
+          "TX-001297",
+          "TX-001868",
+          "TX-002239",
+          "TX-002253",
+          "TX-002290",
+          "TX-002295",
+          "TX-000852",
+          "TX-001162",
+          "TX-001359",
+          "TX-001369",
+          "TX-001894",
+          "TX-002125",
+          "TX-002211",
+          "TX-002214"
+        ],
+        "contrepartie_sans_controle_comptes": [
+          "TX-000531",
+          "TX-000608",
+          "TX-000732",
+          "TX-000815",
+          "TX-000907",
+          "TX-001035",
+          "TX-001781",
+          "TX-001900",
+          "TX-001978",
+          "TX-002103",
+          "TX-002201",
+          "TX-002299"
+        ]
+      },
+      "autres_elements_du_cas": {
+        "acquisition_immobiliere": [
+          "TX-002129"
+        ]
+      }
+    },
+    "ALT-002": {
+      "client_id": "CLI-005",
+      "verdict": "faux_positif",
+      "designation_dans_le_rapport": null,
+      "signaux_attendus": [],
+      "explication": "Sosie légitime (ajouté, absent du rapport) : salaire de l'association employeur et remboursement, à l'euro près, d'avances de frais d'événement.",
+      "preuves_innocence": {
+        "avances_de_frais": [
+          "TX-000796",
+          "TX-000798",
+          "TX-000801",
+          "TX-002273",
+          "TX-002274",
+          "TX-002278"
+        ],
+        "remboursements": [
+          "TX-000854",
+          "TX-002340"
+        ]
+      }
+    }
+  }
+}

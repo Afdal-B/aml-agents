@@ -1,0 +1,1253 @@
+{
+  "alerte_id": "ALT-001",
+  "modele": "gemini-3.1-flash-lite",
+  "date": "2026-10-15",
+  "appels_modele": 3,
+  "evenements": [
+    {
+      "type": "appel",
+      "outil": "profil_client",
+      "args": {
+        "client_id": "CLI-003"
+      }
+    },
+    {
+      "type": "appel",
+      "outil": "info_contrepartie",
+      "args": {
+        "nom": "ASSOCIATION CARITATIVE ENTRAIDE ET AVENIR"
+      }
+    },
+    {
+      "type": "appel",
+      "outil": "historique_client",
+      "args": {
+        "client_id": "CLI-003",
+        "jours": 730,
+        "sens": "credit"
+      }
+    },
+    {
+      "type": "appel",
+      "outil": "historique_client",
+      "args": {
+        "jours": 730,
+        "client_id": "CLI-003",
+        "mode": "especes",
+        "sens": "debit"
+      }
+    },
+    {
+      "type": "resultat",
+      "outil": "profil_client",
+      "contenu": {
+        "id": "CLI-003",
+        "nom": "Bernard et Claire Marchand",
+        "type_compte": "joint",
+        "metier": "Salariés (activités professionnelles du couple)",
+        "revenu_mensuel_declare": 3400,
+        "revenu_annuel_avis_imposition": 40800,
+        "patrimoine_declare": 18000,
+        "pays_residence": "FR",
+        "solde_initial": 6000,
+        "situation_declaree": "Monsieur est président et Madame bénévole permanente d'une association caritative. Seuls les revenus de l'activité professionnelle du couple sont déclarés."
+      }
+    },
+    {
+      "type": "resultat",
+      "outil": "info_contrepartie",
+      "contenu": {
+        "nom": "ASSOCIATION CARITATIVE ENTRAIDE ET AVENIR",
+        "type": "association",
+        "pays": "FR",
+        "informations": {
+          "forme_juridique": "Association loi 1901",
+          "secteur_activite": "Action sociale et caritative",
+          "annee_creation": 2015,
+          "financement": "Subventions de collectivités territoriales (exclusivement)",
+          "subvention_annuelle": 400000,
+          "annees_consecutives": 2,
+          "subventions_totales": 800000,
+          "seuil_publication_comptes": 153000,
+          "commissaire_aux_comptes_designe": false,
+          "comptes_publies_joafe": false
+        }
+      }
+    },
+    {
+      "type": "resultat",
+      "outil": "historique_client",
+      "contenu": {
+        "client_id": "CLI-003",
+        "du": "2024-10-01",
+        "au": "2026-09-30",
+        "nombre_transactions": 60,
+        "montant_total": 681600.0,
+        "tronque": false,
+        "transactions": [
+          {
+            "id": "TX-002358",
+            "client_id": "CLI-003",
+            "date": "2026-09-28",
+            "montant": 1900.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE GARAGE DU PONT SARL",
+            "contrepartie": "GARAGE DU PONT SARL",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-002357",
+            "client_id": "CLI-003",
+            "date": "2026-09-28",
+            "montant": 1500.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE CABINET COMPTABLE REYNAUD",
+            "contrepartie": "CABINET COMPTABLE REYNAUD",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-002299",
+            "client_id": "CLI-003",
+            "date": "2026-09-11",
+            "montant": 40700.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SEPA ASSOCIATION CARITATIVE ENTRAIDE ET AVENIR",
+            "contrepartie": "ASSOCIATION CARITATIVE ENTRAIDE ET AVENIR",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-002252",
+            "client_id": "CLI-003",
+            "date": "2026-08-28",
+            "montant": 1900.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE GARAGE DU PONT SARL",
+            "contrepartie": "GARAGE DU PONT SARL",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-002251",
+            "client_id": "CLI-003",
+            "date": "2026-08-28",
+            "montant": 1500.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE CABINET COMPTABLE REYNAUD",
+            "contrepartie": "CABINET COMPTABLE REYNAUD",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-002201",
+            "client_id": "CLI-003",
+            "date": "2026-08-14",
+            "montant": 54800.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SEPA ASSOCIATION CARITATIVE ENTRAIDE ET AVENIR",
+            "contrepartie": "ASSOCIATION CARITATIVE ENTRAIDE ET AVENIR",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-002149",
+            "client_id": "CLI-003",
+            "date": "2026-07-28",
+            "montant": 1900.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE GARAGE DU PONT SARL",
+            "contrepartie": "GARAGE DU PONT SARL",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-002148",
+            "client_id": "CLI-003",
+            "date": "2026-07-28",
+            "montant": 1500.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE CABINET COMPTABLE REYNAUD",
+            "contrepartie": "CABINET COMPTABLE REYNAUD",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-002103",
+            "client_id": "CLI-003",
+            "date": "2026-07-17",
+            "montant": 54800.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SEPA ASSOCIATION CARITATIVE ENTRAIDE ET AVENIR",
+            "contrepartie": "ASSOCIATION CARITATIVE ENTRAIDE ET AVENIR",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-002035",
+            "client_id": "CLI-003",
+            "date": "2026-06-26",
+            "montant": 1900.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE GARAGE DU PONT SARL",
+            "contrepartie": "GARAGE DU PONT SARL",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-002034",
+            "client_id": "CLI-003",
+            "date": "2026-06-26",
+            "montant": 1500.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE CABINET COMPTABLE REYNAUD",
+            "contrepartie": "CABINET COMPTABLE REYNAUD",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001978",
+            "client_id": "CLI-003",
+            "date": "2026-06-12",
+            "montant": 40700.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SEPA ASSOCIATION CARITATIVE ENTRAIDE ET AVENIR",
+            "contrepartie": "ASSOCIATION CARITATIVE ENTRAIDE ET AVENIR",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001942",
+            "client_id": "CLI-003",
+            "date": "2026-05-28",
+            "montant": 1900.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE GARAGE DU PONT SARL",
+            "contrepartie": "GARAGE DU PONT SARL",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001941",
+            "client_id": "CLI-003",
+            "date": "2026-05-28",
+            "montant": 1500.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE CABINET COMPTABLE REYNAUD",
+            "contrepartie": "CABINET COMPTABLE REYNAUD",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001900",
+            "client_id": "CLI-003",
+            "date": "2026-05-15",
+            "montant": 56100.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SEPA ASSOCIATION CARITATIVE ENTRAIDE ET AVENIR",
+            "contrepartie": "ASSOCIATION CARITATIVE ENTRAIDE ET AVENIR",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001840",
+            "client_id": "CLI-003",
+            "date": "2026-04-28",
+            "montant": 1900.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE GARAGE DU PONT SARL",
+            "contrepartie": "GARAGE DU PONT SARL",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001839",
+            "client_id": "CLI-003",
+            "date": "2026-04-28",
+            "montant": 1500.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE CABINET COMPTABLE REYNAUD",
+            "contrepartie": "CABINET COMPTABLE REYNAUD",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001781",
+            "client_id": "CLI-003",
+            "date": "2026-04-10",
+            "montant": 52900.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SEPA ASSOCIATION CARITATIVE ENTRAIDE ET AVENIR",
+            "contrepartie": "ASSOCIATION CARITATIVE ENTRAIDE ET AVENIR",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001741",
+            "client_id": "CLI-003",
+            "date": "2026-03-27",
+            "montant": 1900.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE GARAGE DU PONT SARL",
+            "contrepartie": "GARAGE DU PONT SARL",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001740",
+            "client_id": "CLI-003",
+            "date": "2026-03-27",
+            "montant": 1500.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE CABINET COMPTABLE REYNAUD",
+            "contrepartie": "CABINET COMPTABLE REYNAUD",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001641",
+            "client_id": "CLI-003",
+            "date": "2026-02-27",
+            "montant": 1900.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE GARAGE DU PONT SARL",
+            "contrepartie": "GARAGE DU PONT SARL",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001640",
+            "client_id": "CLI-003",
+            "date": "2026-02-27",
+            "montant": 1500.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE CABINET COMPTABLE REYNAUD",
+            "contrepartie": "CABINET COMPTABLE REYNAUD",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001558",
+            "client_id": "CLI-003",
+            "date": "2026-01-28",
+            "montant": 1900.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE GARAGE DU PONT SARL",
+            "contrepartie": "GARAGE DU PONT SARL",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001557",
+            "client_id": "CLI-003",
+            "date": "2026-01-28",
+            "montant": 1500.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE CABINET COMPTABLE REYNAUD",
+            "contrepartie": "CABINET COMPTABLE REYNAUD",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001456",
+            "client_id": "CLI-003",
+            "date": "2025-12-26",
+            "montant": 1900.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE GARAGE DU PONT SARL",
+            "contrepartie": "GARAGE DU PONT SARL",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001455",
+            "client_id": "CLI-003",
+            "date": "2025-12-26",
+            "montant": 1500.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE CABINET COMPTABLE REYNAUD",
+            "contrepartie": "CABINET COMPTABLE REYNAUD",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001358",
+            "client_id": "CLI-003",
+            "date": "2025-11-28",
+            "montant": 1900.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE GARAGE DU PONT SARL",
+            "contrepartie": "GARAGE DU PONT SARL",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001357",
+            "client_id": "CLI-003",
+            "date": "2025-11-28",
+            "montant": 1500.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE CABINET COMPTABLE REYNAUD",
+            "contrepartie": "CABINET COMPTABLE REYNAUD",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001256",
+            "client_id": "CLI-003",
+            "date": "2025-10-28",
+            "montant": 1900.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE GARAGE DU PONT SARL",
+            "contrepartie": "GARAGE DU PONT SARL",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001255",
+            "client_id": "CLI-003",
+            "date": "2025-10-28",
+            "montant": 1500.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE CABINET COMPTABLE REYNAUD",
+            "contrepartie": "CABINET COMPTABLE REYNAUD",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001152",
+            "client_id": "CLI-003",
+            "date": "2025-09-26",
+            "montant": 1900.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE GARAGE DU PONT SARL",
+            "contrepartie": "GARAGE DU PONT SARL",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001151",
+            "client_id": "CLI-003",
+            "date": "2025-09-26",
+            "montant": 1500.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE CABINET COMPTABLE REYNAUD",
+            "contrepartie": "CABINET COMPTABLE REYNAUD",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001053",
+            "client_id": "CLI-003",
+            "date": "2025-08-28",
+            "montant": 1900.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE GARAGE DU PONT SARL",
+            "contrepartie": "GARAGE DU PONT SARL",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001052",
+            "client_id": "CLI-003",
+            "date": "2025-08-28",
+            "montant": 1500.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE CABINET COMPTABLE REYNAUD",
+            "contrepartie": "CABINET COMPTABLE REYNAUD",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001035",
+            "client_id": "CLI-003",
+            "date": "2025-08-22",
+            "montant": 52400.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SEPA ASSOCIATION CARITATIVE ENTRAIDE ET AVENIR",
+            "contrepartie": "ASSOCIATION CARITATIVE ENTRAIDE ET AVENIR",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000960",
+            "client_id": "CLI-003",
+            "date": "2025-07-28",
+            "montant": 1900.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE GARAGE DU PONT SARL",
+            "contrepartie": "GARAGE DU PONT SARL",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000959",
+            "client_id": "CLI-003",
+            "date": "2025-07-28",
+            "montant": 1500.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE CABINET COMPTABLE REYNAUD",
+            "contrepartie": "CABINET COMPTABLE REYNAUD",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000907",
+            "client_id": "CLI-003",
+            "date": "2025-07-11",
+            "montant": 58700.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SEPA ASSOCIATION CARITATIVE ENTRAIDE ET AVENIR",
+            "contrepartie": "ASSOCIATION CARITATIVE ENTRAIDE ET AVENIR",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000862",
+            "client_id": "CLI-003",
+            "date": "2025-06-27",
+            "montant": 1900.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE GARAGE DU PONT SARL",
+            "contrepartie": "GARAGE DU PONT SARL",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000861",
+            "client_id": "CLI-003",
+            "date": "2025-06-27",
+            "montant": 1500.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE CABINET COMPTABLE REYNAUD",
+            "contrepartie": "CABINET COMPTABLE REYNAUD",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000815",
+            "client_id": "CLI-003",
+            "date": "2025-06-13",
+            "montant": 46700.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SEPA ASSOCIATION CARITATIVE ENTRAIDE ET AVENIR",
+            "contrepartie": "ASSOCIATION CARITATIVE ENTRAIDE ET AVENIR",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000763",
+            "client_id": "CLI-003",
+            "date": "2025-05-28",
+            "montant": 1900.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE GARAGE DU PONT SARL",
+            "contrepartie": "GARAGE DU PONT SARL",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000762",
+            "client_id": "CLI-003",
+            "date": "2025-05-28",
+            "montant": 1500.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE CABINET COMPTABLE REYNAUD",
+            "contrepartie": "CABINET COMPTABLE REYNAUD",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000732",
+            "client_id": "CLI-003",
+            "date": "2025-05-16",
+            "montant": 45000.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SEPA ASSOCIATION CARITATIVE ENTRAIDE ET AVENIR",
+            "contrepartie": "ASSOCIATION CARITATIVE ENTRAIDE ET AVENIR",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000666",
+            "client_id": "CLI-003",
+            "date": "2025-04-28",
+            "montant": 1900.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE GARAGE DU PONT SARL",
+            "contrepartie": "GARAGE DU PONT SARL",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000665",
+            "client_id": "CLI-003",
+            "date": "2025-04-28",
+            "montant": 1500.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE CABINET COMPTABLE REYNAUD",
+            "contrepartie": "CABINET COMPTABLE REYNAUD",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000608",
+            "client_id": "CLI-003",
+            "date": "2025-04-11",
+            "montant": 53700.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SEPA ASSOCIATION CARITATIVE ENTRAIDE ET AVENIR",
+            "contrepartie": "ASSOCIATION CARITATIVE ENTRAIDE ET AVENIR",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000573",
+            "client_id": "CLI-003",
+            "date": "2025-03-28",
+            "montant": 1900.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE GARAGE DU PONT SARL",
+            "contrepartie": "GARAGE DU PONT SARL",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000572",
+            "client_id": "CLI-003",
+            "date": "2025-03-28",
+            "montant": 1500.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE CABINET COMPTABLE REYNAUD",
+            "contrepartie": "CABINET COMPTABLE REYNAUD",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000531",
+            "client_id": "CLI-003",
+            "date": "2025-03-14",
+            "montant": 43500.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SEPA ASSOCIATION CARITATIVE ENTRAIDE ET AVENIR",
+            "contrepartie": "ASSOCIATION CARITATIVE ENTRAIDE ET AVENIR",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000477",
+            "client_id": "CLI-003",
+            "date": "2025-02-28",
+            "montant": 1900.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE GARAGE DU PONT SARL",
+            "contrepartie": "GARAGE DU PONT SARL",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000476",
+            "client_id": "CLI-003",
+            "date": "2025-02-28",
+            "montant": 1500.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE CABINET COMPTABLE REYNAUD",
+            "contrepartie": "CABINET COMPTABLE REYNAUD",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000385",
+            "client_id": "CLI-003",
+            "date": "2025-01-28",
+            "montant": 1900.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE GARAGE DU PONT SARL",
+            "contrepartie": "GARAGE DU PONT SARL",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000384",
+            "client_id": "CLI-003",
+            "date": "2025-01-28",
+            "montant": 1500.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE CABINET COMPTABLE REYNAUD",
+            "contrepartie": "CABINET COMPTABLE REYNAUD",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000284",
+            "client_id": "CLI-003",
+            "date": "2024-12-27",
+            "montant": 1900.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE GARAGE DU PONT SARL",
+            "contrepartie": "GARAGE DU PONT SARL",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000283",
+            "client_id": "CLI-003",
+            "date": "2024-12-27",
+            "montant": 1500.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE CABINET COMPTABLE REYNAUD",
+            "contrepartie": "CABINET COMPTABLE REYNAUD",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000190",
+            "client_id": "CLI-003",
+            "date": "2024-11-28",
+            "montant": 1900.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE GARAGE DU PONT SARL",
+            "contrepartie": "GARAGE DU PONT SARL",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000189",
+            "client_id": "CLI-003",
+            "date": "2024-11-28",
+            "montant": 1500.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE CABINET COMPTABLE REYNAUD",
+            "contrepartie": "CABINET COMPTABLE REYNAUD",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000094",
+            "client_id": "CLI-003",
+            "date": "2024-10-28",
+            "montant": 1900.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE GARAGE DU PONT SARL",
+            "contrepartie": "GARAGE DU PONT SARL",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000093",
+            "client_id": "CLI-003",
+            "date": "2024-10-28",
+            "montant": 1500.0,
+            "sens": "credit",
+            "mode": "virement",
+            "libelle": "VIR SALAIRE CABINET COMPTABLE REYNAUD",
+            "contrepartie": "CABINET COMPTABLE REYNAUD",
+            "pays_contrepartie": "FR"
+          }
+        ]
+      }
+    },
+    {
+      "type": "resultat",
+      "outil": "historique_client",
+      "contenu": {
+        "client_id": "CLI-003",
+        "du": "2024-10-01",
+        "au": "2026-09-30",
+        "nombre_transactions": 40,
+        "montant_total": 200000.0,
+        "tronque": false,
+        "transactions": [
+          {
+            "id": "TX-002343",
+            "client_id": "CLI-003",
+            "date": "2026-09-23",
+            "montant": 4200.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES GUICHET",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-002286",
+            "client_id": "CLI-003",
+            "date": "2026-09-08",
+            "montant": 6700.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES GUICHET",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-002260",
+            "client_id": "CLI-003",
+            "date": "2026-09-02",
+            "montant": 6600.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES GUICHET",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-002212",
+            "client_id": "CLI-003",
+            "date": "2026-08-17",
+            "montant": 3800.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES GUICHET",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-002194",
+            "client_id": "CLI-003",
+            "date": "2026-08-13",
+            "montant": 3200.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES GUICHET",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-002122",
+            "client_id": "CLI-003",
+            "date": "2026-07-21",
+            "montant": 4500.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES GUICHET",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-002095",
+            "client_id": "CLI-003",
+            "date": "2026-07-15",
+            "montant": 3100.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES GUICHET",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-002086",
+            "client_id": "CLI-003",
+            "date": "2026-07-13",
+            "montant": 5600.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES GUICHET",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-002070",
+            "client_id": "CLI-003",
+            "date": "2026-07-09",
+            "montant": 4000.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES GUICHET",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-002036",
+            "client_id": "CLI-003",
+            "date": "2026-06-26",
+            "montant": 6700.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES GUICHET",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-002028",
+            "client_id": "CLI-003",
+            "date": "2026-06-24",
+            "montant": 4300.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES GUICHET",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-002024",
+            "client_id": "CLI-003",
+            "date": "2026-06-23",
+            "montant": 6000.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES GUICHET",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001996",
+            "client_id": "CLI-003",
+            "date": "2026-06-16",
+            "montant": 6000.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES GUICHET",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001953",
+            "client_id": "CLI-003",
+            "date": "2026-06-04",
+            "montant": 6000.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES GUICHET",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001947",
+            "client_id": "CLI-003",
+            "date": "2026-05-29",
+            "montant": 3700.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES GUICHET",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001943",
+            "client_id": "CLI-003",
+            "date": "2026-05-28",
+            "montant": 5100.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES GUICHET",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001931",
+            "client_id": "CLI-003",
+            "date": "2026-05-26",
+            "montant": 5600.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES GUICHET",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001874",
+            "client_id": "CLI-003",
+            "date": "2026-05-07",
+            "montant": 4400.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES GUICHET",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001845",
+            "client_id": "CLI-003",
+            "date": "2026-04-30",
+            "montant": 3700.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES GUICHET",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001834",
+            "client_id": "CLI-003",
+            "date": "2026-04-27",
+            "montant": 6800.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES GUICHET",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001299",
+            "client_id": "CLI-003",
+            "date": "2025-11-12",
+            "montant": 5700.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES GUICHET",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001237",
+            "client_id": "CLI-003",
+            "date": "2025-10-21",
+            "montant": 3200.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES GUICHET",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001232",
+            "client_id": "CLI-003",
+            "date": "2025-10-20",
+            "montant": 5200.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES GUICHET",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001186",
+            "client_id": "CLI-003",
+            "date": "2025-10-07",
+            "montant": 6000.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES GUICHET",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001171",
+            "client_id": "CLI-003",
+            "date": "2025-10-03",
+            "montant": 3900.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES GUICHET",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001167",
+            "client_id": "CLI-003",
+            "date": "2025-10-02",
+            "montant": 6600.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES GUICHET",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001141",
+            "client_id": "CLI-003",
+            "date": "2025-09-22",
+            "montant": 6600.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES GUICHET",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001119",
+            "client_id": "CLI-003",
+            "date": "2025-09-18",
+            "montant": 4100.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES GUICHET",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001085",
+            "client_id": "CLI-003",
+            "date": "2025-09-08",
+            "montant": 4000.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES GUICHET",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001073",
+            "client_id": "CLI-003",
+            "date": "2025-09-04",
+            "montant": 5800.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES GUICHET",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001010",
+            "client_id": "CLI-003",
+            "date": "2025-08-14",
+            "montant": 3800.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES GUICHET",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-001000",
+            "client_id": "CLI-003",
+            "date": "2025-08-11",
+            "montant": 6200.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES GUICHET",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000967",
+            "client_id": "CLI-003",
+            "date": "2025-07-31",
+            "montant": 4000.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES GUICHET",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000883",
+            "client_id": "CLI-003",
+            "date": "2025-07-04",
+            "montant": 6900.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES GUICHET",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000853",
+            "client_id": "CLI-003",
+            "date": "2025-06-24",
+            "montant": 4500.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES GUICHET",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000800",
+            "client_id": "CLI-003",
+            "date": "2025-06-11",
+            "montant": 3000.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES GUICHET",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000786",
+            "client_id": "CLI-003",
+            "date": "2025-06-06",
+            "montant": 6200.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES GUICHET",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000727",
+            "client_id": "CLI-003",
+            "date": "2025-05-15",
+            "montant": 5300.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES GUICHET",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000701",
+            "client_id": "CLI-003",
+            "date": "2025-05-09",
+            "montant": 5500.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES GUICHET",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          },
+          {
+            "id": "TX-000590",
+            "client_id": "CLI-003",
+            "date": "2025-04-04",
+            "montant": 3500.0,
+            "sens": "debit",
+            "mode": "especes",
+            "libelle": "RETRAIT ESPECES GUICHET",
+            "contrepartie": "RETRAIT D'ESPECES",
+            "pays_contrepartie": "FR"
+          }
+        ]
+      }
+    },
+    {
+      "type": "pensee",
+      "texte": "L'examen des données bancaires du client CLI-003 révèle les signaux suivants :\n\n1.  **flux_crediteurs_incoherents_avec_activite** : Les virements reçus de l'association \"ENTRAIDE ET AVENIR\" (ex: TX-002299, TX-002201, TX-002103) sont très élevés et fréquents, contrastant avec les revenus salariés déclarés du couple (3 400 €/mois).\n2.  **flux_incoherents_avec_avis_imposition** : Le cumul des flux créditeurs annuels dépasse largement les 40 800 € de revenus déclarés sur l'avis d'imposition.\n3.  **retraits_especes_importants** : Des retraits en espèces récurrents et de montants significatifs sont observés de manière quasi systématique suite aux virements reçus de l'association (ex: TX-002343, TX-002286, TX-002260, TX-002212, TX-002122, TX-002036).\n4.  **contrepartie_sans_controle_comptes** : L'information publique sur l'association \"ENTRAIDE ET AVENIR\" confirme l'absence de commissaire aux comptes désigné et l'absence de publication des comptes au JOAFE, malgré une subvention annuelle importante.\n\nLes flux financiers observés, leur corrélation avec des retraits d'espèces immédiats et le profil de la contrepartie présentent des caractéristiques atypiques."
+    },
+    {
+      "type": "rapport",
+      "rapport": {
+        "constats": [
+          {
+            "signal": "flux_crediteurs_incoherents_avec_activite",
+            "preuves": [
+              "TX-002299",
+              "TX-002201",
+              "TX-002103"
+            ],
+            "explication": "Les virements récurrents de l'association dépassent largement les revenus mensuels de 3 400 euros déclarés par le couple."
+          },
+          {
+            "signal": "flux_incoherents_avec_avis_imposition",
+            "preuves": [
+              "TX-002299",
+              "TX-002201",
+              "TX-002103"
+            ],
+            "explication": "Le cumul annuel des crédits est totalement disproportionné par rapport au revenu annuel déclaré de 40 800 euros."
+          },
+          {
+            "signal": "retraits_especes_importants",
+            "preuves": [
+              "TX-002343",
+              "TX-002286",
+              "TX-002260",
+              "TX-002036"
+            ],
+            "explication": "Des retraits en espèces importants sont effectués systématiquement après la réception des virements de l'association."
+          },
+          {
+            "signal": "contrepartie_sans_controle_comptes",
+            "preuves": [
+              "TX-002299"
+            ],
+            "explication": "L'association contrepartie ne publie pas ses comptes au JOAFE et n'a pas de commissaire aux comptes, malgré un volume financier élevé."
+          }
+        ],
+        "synthese": "Les flux créditeurs reçus par le client via l'association caritative sont en inadéquation totale avec sa situation professionnelle et fiscale. La pratique récurrente de retraits en espèces quasi immédiats suite à ces virements, couplée à l'opacité financière de la structure émettrice, soulève des préoccupations importantes sur l'usage des fonds."
+      }
+    }
+  ]
+}

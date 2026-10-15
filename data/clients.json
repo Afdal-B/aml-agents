@@ -1,0 +1,74 @@
+[
+  {
+    "id": "CLI-001",
+    "nom": "Amélie Rousseau",
+    "type_compte": "individuel",
+    "metier": "Enseignante",
+    "revenu_mensuel_declare": 2450,
+    "revenu_annuel_avis_imposition": 29400,
+    "patrimoine_declare": 12000,
+    "pays_residence": "FR",
+    "solde_initial": 2500,
+    "situation_declaree": "Enseignante salariée, locataire de son logement."
+  },
+  {
+    "id": "CLI-002",
+    "nom": "Thomas Girard",
+    "type_compte": "individuel",
+    "metier": "Technicien de maintenance",
+    "revenu_mensuel_declare": 2150,
+    "revenu_annuel_avis_imposition": 25800,
+    "patrimoine_declare": 6000,
+    "pays_residence": "FR",
+    "solde_initial": 1500,
+    "situation_declaree": "Technicien en CDI, locataire."
+  },
+  {
+    "id": "CLI-003",
+    "nom": "Bernard et Claire Marchand",
+    "type_compte": "joint",
+    "metier": "Salariés (activités professionnelles du couple)",
+    "revenu_mensuel_declare": 3400,
+    "revenu_annuel_avis_imposition": 40800,
+    "patrimoine_declare": 18000,
+    "pays_residence": "FR",
+    "solde_initial": 6000,
+    "situation_declaree": "Monsieur est président et Madame bénévole permanente d'une association caritative. Seuls les revenus de l'activité professionnelle du couple sont déclarés."
+  },
+  {
+    "id": "CLI-004",
+    "nom": "Sophie Lambert",
+    "type_compte": "individuel",
+    "metier": "Comptable",
+    "revenu_mensuel_declare": 3100,
+    "revenu_annuel_avis_imposition": 37200,
+    "patrimoine_declare": 25000,
+    "pays_residence": "FR",
+    "solde_initial": 3000,
+    "situation_declaree": "Comptable salariée, locataire."
+  },
+  {
+    "id": "CLI-005",
+    "nom": "Julien Morel",
+    "type_compte": "individuel",
+    "metier": "Directeur administratif",
+    "revenu_mensuel_declare": 3300,
+    "revenu_annuel_avis_imposition": 39600,
+    "patrimoine_declare": 15000,
+    "pays_residence": "FR",
+    "solde_initial": 2000,
+    "situation_declaree": "Salarié de l'association socio-culturelle Les Terrasses (directeur administratif). Avance les frais des événements annuels de l'association, remboursés sur justificatifs."
+  },
+  {
+    "id": "CLI-006",
+    "nom": "Nicolas Perrin",
+    "type_compte": "individuel",
+    "metier": "Commercial",
+    "revenu_mensuel_declare": 3700,
+    "revenu_annuel_avis_imposition": 44400,
+    "patrimoine_declare": 20000,
+    "pays_residence": "FR",
+    "solde_initial": 2500,
+    "situation_declaree": "Commercial salarié, locataire."
+  }
+]

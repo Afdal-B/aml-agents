@@ -19,8 +19,9 @@ class Configuration:
             raise RuntimeError("GOOGLE_API_KEY absente dans .env")
         return cls(
             modele=os.getenv("MODELE") or cls.modele,
-            requetes_par_seconde=os.getenv("REQUETES_PAR_SECONDES")
-            or cls.requetes_par_seconde,
+            requetes_par_seconde=float(
+                os.getenv("REQUETE_PAR_SECONDE") or cls.requetes_par_seconde
+            ),
         )
 
 

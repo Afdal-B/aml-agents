@@ -8,6 +8,8 @@ dependencies = [
     "langchain-google-genai>=4.4.1",
     "langgraph>=1.2.14",
     "langgraph-cli[inmem]>=0.4.33",
+    "python-dotenv>=1.2.4",
+    "streamlit>=1.66.0",
 ]
 
 [project.scripts]

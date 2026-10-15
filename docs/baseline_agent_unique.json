@@ -1,0 +1,194 @@
+{
+  "runs": 5,
+  "appels": 32,
+  "alertes": {
+    "ALT-001": {
+      "verdict": "vrai_positif",
+      "resume": {
+        "executions_reussies": 5,
+        "executions_echouees": 0,
+        "issues": {
+          "escalade_humaine": 5
+        },
+        "score_moyen": 6.2,
+        "rappel_moyen": 0.52,
+        "faux_negatifs": 0,
+        "faux_positifs": 0,
+        "constats_emis": 13,
+        "constats_invalides": 0,
+        "preuves_inexistantes": 0,
+        "duree_moyenne_s": 22.8
+      },
+      "mesures": [
+        {
+          "alerte_id": "ALT-001",
+          "verdict": "vrai_positif",
+          "issue": "escalade_humaine",
+          "score": 7,
+          "signaux_valides": [
+            "contrepartie_sans_controle_comptes",
+            "flux_crediteurs_incoherents_avec_activite",
+            "flux_incoherents_avec_avis_imposition"
+          ],
+          "rappel_signaux": 0.6,
+          "constats_emis": 3,
+          "constats_invalides": 0,
+          "preuves_inexistantes": 0,
+          "faux_negatif": false,
+          "faux_positif": false
+        },
+        {
+          "alerte_id": "ALT-001",
+          "verdict": "vrai_positif",
+          "issue": "escalade_humaine",
+          "score": 5,
+          "signaux_valides": [
+            "contrepartie_sans_controle_comptes",
+            "flux_incoherents_avec_avis_imposition"
+          ],
+          "rappel_signaux": 0.4,
+          "constats_emis": 2,
+          "constats_invalides": 0,
+          "preuves_inexistantes": 0,
+          "faux_negatif": false,
+          "faux_positif": false
+        },
+        {
+          "alerte_id": "ALT-001",
+          "verdict": "vrai_positif",
+          "issue": "escalade_humaine",
+          "score": 5,
+          "signaux_valides": [
+            "contrepartie_sans_controle_comptes",
+            "flux_incoherents_avec_avis_imposition"
+          ],
+          "rappel_signaux": 0.4,
+          "constats_emis": 2,
+          "constats_invalides": 0,
+          "preuves_inexistantes": 0,
+          "faux_negatif": false,
+          "faux_positif": false
+        },
+        {
+          "alerte_id": "ALT-001",
+          "verdict": "vrai_positif",
+          "issue": "escalade_humaine",
+          "score": 7,
+          "signaux_valides": [
+            "contrepartie_sans_controle_comptes",
+            "flux_crediteurs_incoherents_avec_activite",
+            "flux_incoherents_avec_avis_imposition"
+          ],
+          "rappel_signaux": 0.6,
+          "constats_emis": 3,
+          "constats_invalides": 0,
+          "preuves_inexistantes": 0,
+          "faux_negatif": false,
+          "faux_positif": false
+        },
+        {
+          "alerte_id": "ALT-001",
+          "verdict": "vrai_positif",
+          "issue": "escalade_humaine",
+          "score": 7,
+          "signaux_valides": [
+            "contrepartie_sans_controle_comptes",
+            "flux_crediteurs_incoherents_avec_activite",
+            "flux_incoherents_avec_avis_imposition"
+          ],
+          "rappel_signaux": 0.6,
+          "constats_emis": 3,
+          "constats_invalides": 0,
+          "preuves_inexistantes": 0,
+          "faux_negatif": false,
+          "faux_positif": false
+        }
+      ]
+    },
+    "ALT-002": {
+      "verdict": "faux_positif",
+      "resume": {
+        "executions_reussies": 5,
+        "executions_echouees": 0,
+        "issues": {
+          "classer_sans_suite": 5
+        },
+        "score_moyen": 0.0,
+        "rappel_moyen": null,
+        "faux_negatifs": 0,
+        "faux_positifs": 0,
+        "constats_emis": 0,
+        "constats_invalides": 0,
+        "preuves_inexistantes": 0,
+        "duree_moyenne_s": 19.7
+      },
+      "mesures": [
+        {
+          "alerte_id": "ALT-002",
+          "verdict": "faux_positif",
+          "issue": "classer_sans_suite",
+          "score": 0,
+          "signaux_valides": [],
+          "rappel_signaux": null,
+          "constats_emis": 0,
+          "constats_invalides": 0,
+          "preuves_inexistantes": 0,
+          "faux_negatif": false,
+          "faux_positif": false
+        },
+        {
+          "alerte_id": "ALT-002",
+          "verdict": "faux_positif",
+          "issue": "classer_sans_suite",
+          "score": 0,
+          "signaux_valides": [],
+          "rappel_signaux": null,
+          "constats_emis": 0,
+          "constats_invalides": 0,
+          "preuves_inexistantes": 0,
+          "faux_negatif": false,
+          "faux_positif": false
+        },
+        {
+          "alerte_id": "ALT-002",
+          "verdict": "faux_positif",
+          "issue": "classer_sans_suite",
+          "score": 0,
+          "signaux_valides": [],
+          "rappel_signaux": null,
+          "constats_emis": 0,
+          "constats_invalides": 0,
+          "preuves_inexistantes": 0,
+          "faux_negatif": false,
+          "faux_positif": false
+        },
+        {
+          "alerte_id": "ALT-002",
+          "verdict": "faux_positif",
+          "issue": "classer_sans_suite",
+          "score": 0,
+          "signaux_valides": [],
+          "rappel_signaux": null,
+          "constats_emis": 0,
+          "constats_invalides": 0,
+          "preuves_inexistantes": 0,
+          "faux_negatif": false,
+          "faux_positif": false
+        },
+        {
+          "alerte_id": "ALT-002",
+          "verdict": "faux_positif",
+          "issue": "classer_sans_suite",
+          "score": 0,
+          "signaux_valides": [],
+          "rappel_signaux": null,
+          "constats_emis": 0,
+          "constats_invalides": 0,
+          "preuves_inexistantes": 0,
+          "faux_negatif": false,
+          "faux_positif": false
+        }
+      ]
+    }
+  }
+}

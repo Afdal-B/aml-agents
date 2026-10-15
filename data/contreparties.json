@@ -1,0 +1,291 @@
+[
+  {
+    "nom": "ASSOCIATION CARITATIVE ENTRAIDE ET AVENIR",
+    "type": "association",
+    "pays": "FR",
+    "informations": {
+      "forme_juridique": "Association loi 1901",
+      "secteur_activite": "Action sociale et caritative",
+      "annee_creation": 2015,
+      "financement": "Subventions de collectivités territoriales (exclusivement)",
+      "subvention_annuelle": 400000,
+      "annees_consecutives": 2,
+      "subventions_totales": 800000,
+      "seuil_publication_comptes": 153000,
+      "commissaire_aux_comptes_designe": false,
+      "comptes_publies_joafe": false
+    }
+  },
+  {
+    "nom": "ASSOCIATION SOCIO-CULTURELLE LES TERRASSES",
+    "type": "association",
+    "pays": "FR",
+    "informations": {
+      "forme_juridique": "Association loi 1901",
+      "secteur_activite": "Animation socio-culturelle",
+      "annee_creation": 2008,
+      "financement": "Subventions et dons",
+      "seuil_publication_comptes": 153000,
+      "commissaire_aux_comptes_designe": true,
+      "comptes_publies_joafe": true
+    }
+  },
+  {
+    "nom": "ASSURANCE HABITATION PROTEGO",
+    "type": "assurance",
+    "pays": "FR",
+    "informations": {
+      "forme_juridique": "SA",
+      "secteur_activite": "Assurance de dommages",
+      "annee_creation": 1985
+    }
+  },
+  {
+    "nom": "ATELIERS MECANIQUES BERTIN",
+    "type": "employeur",
+    "pays": "FR",
+    "informations": {
+      "forme_juridique": "SAS",
+      "secteur_activite": "Mécanique industrielle",
+      "annee_creation": 1991
+    }
+  },
+  {
+    "nom": "BIJOUTERIE ALDEBERT",
+    "type": "bijouterie",
+    "pays": "FR",
+    "informations": {
+      "forme_juridique": "SARL",
+      "secteur_activite": "Bijouterie-joaillerie",
+      "annee_creation": 1994
+    }
+  },
+  {
+    "nom": "BOULANGERIE DU MARCHE",
+    "type": "boulangerie",
+    "pays": "FR",
+    "informations": {
+      "forme_juridique": "EURL",
+      "secteur_activite": "Boulangerie-pâtisserie",
+      "annee_creation": 1999
+    }
+  },
+  {
+    "nom": "CABINET COMPTABLE REYNAUD",
+    "type": "employeur",
+    "pays": "FR",
+    "informations": {
+      "forme_juridique": "SARL",
+      "secteur_activite": "Expertise comptable",
+      "annee_creation": 2002
+    }
+  },
+  {
+    "nom": "CABINET FIDUCIAIRE DELAUNAY",
+    "type": "employeur",
+    "pays": "FR",
+    "informations": {
+      "forme_juridique": "SARL",
+      "secteur_activite": "Services fiduciaires",
+      "annee_creation": 1997
+    }
+  },
+  {
+    "nom": "CINEMA CENTRE VILLE",
+    "type": "cinema",
+    "pays": "FR",
+    "informations": {
+      "forme_juridique": "SA",
+      "secteur_activite": "Exploitation de salles de cinéma",
+      "annee_creation": 1992
+    }
+  },
+  {
+    "nom": "COMPAGNIE AERIENNE TRANSVOL",
+    "type": "compagnie_aerienne",
+    "pays": "FR",
+    "informations": {
+      "forme_juridique": "SA",
+      "secteur_activite": "Transport aérien de passagers",
+      "annee_creation": 1989
+    }
+  },
+  {
+    "nom": "ENERGIES REGIONALES SA",
+    "type": "fournisseur_energie",
+    "pays": "FR",
+    "informations": {
+      "forme_juridique": "SA",
+      "secteur_activite": "Fourniture d'énergie",
+      "annee_creation": 1987
+    }
+  },
+  {
+    "nom": "ETUDE NOTARIALE BRUNEAU ET ASSOCIES",
+    "type": "notaire",
+    "pays": "FR",
+    "informations": {
+      "forme_juridique": "Société d'exercice libéral",
+      "secteur_activite": "Notariat",
+      "annee_creation": 1998
+    }
+  },
+  {
+    "nom": "GARAGE DU PONT SARL",
+    "type": "employeur",
+    "pays": "FR",
+    "informations": {
+      "forme_juridique": "SARL",
+      "secteur_activite": "Réparation automobile",
+      "annee_creation": 2004
+    }
+  },
+  {
+    "nom": "HORLOGERIE DES ARCADES",
+    "type": "horlogerie",
+    "pays": "FR",
+    "informations": {
+      "forme_juridique": "SARL",
+      "secteur_activite": "Horlogerie de luxe",
+      "annee_creation": 2003
+    }
+  },
+  {
+    "nom": "HOTEL BELLE VUE RIVIERA",
+    "type": "hotel",
+    "pays": "FR",
+    "informations": {
+      "forme_juridique": "SAS",
+      "secteur_activite": "Hôtellerie",
+      "annee_creation": 2001
+    }
+  },
+  {
+    "nom": "LOCATION DE SALLES DU PARC",
+    "type": "location_salle",
+    "pays": "FR",
+    "informations": {
+      "forme_juridique": "SARL",
+      "secteur_activite": "Location de salles",
+      "annee_creation": 2012
+    }
+  },
+  {
+    "nom": "MAISON ORSINI PRET-A-PORTER",
+    "type": "pret_a_porter_luxe",
+    "pays": "FR",
+    "informations": {
+      "forme_juridique": "SAS",
+      "secteur_activite": "Prêt-à-porter de luxe",
+      "annee_creation": 2011
+    }
+  },
+  {
+    "nom": "OPERATEUR TELECOM CELLULIA",
+    "type": "operateur_telecom",
+    "pays": "FR",
+    "informations": {
+      "forme_juridique": "SA",
+      "secteur_activite": "Télécommunications",
+      "annee_creation": 2000
+    }
+  },
+  {
+    "nom": "RESTAURANT LE BOUCHON",
+    "type": "restaurant",
+    "pays": "FR",
+    "informations": {
+      "forme_juridique": "SARL",
+      "secteur_activite": "Restauration",
+      "annee_creation": 2009
+    }
+  },
+  {
+    "nom": "RETRAIT D'ESPECES",
+    "type": "retrait_especes",
+    "pays": "FR",
+    "informations": {
+      "forme_juridique": "Sans objet (opération de retrait)",
+      "secteur_activite": "Retrait d'espèces"
+    }
+  },
+  {
+    "nom": "SCI LES TILLEULS",
+    "type": "bailleur",
+    "pays": "FR",
+    "informations": {
+      "forme_juridique": "SCI",
+      "secteur_activite": "Location de logements",
+      "annee_creation": 2006
+    }
+  },
+  {
+    "nom": "SOCIETE DISTRIB-PLUS",
+    "type": "employeur",
+    "pays": "FR",
+    "informations": {
+      "forme_juridique": "SA",
+      "secteur_activite": "Distribution de produits de grande consommation",
+      "annee_creation": 1993
+    }
+  },
+  {
+    "nom": "SONORISATION ET LUMIERES PRO",
+    "type": "sonorisation",
+    "pays": "FR",
+    "informations": {
+      "forme_juridique": "SAS",
+      "secteur_activite": "Sonorisation et éclairage",
+      "annee_creation": 2014
+    }
+  },
+  {
+    "nom": "STATION SERVICE DU CARREFOUR",
+    "type": "station_service",
+    "pays": "FR",
+    "informations": {
+      "forme_juridique": "SA",
+      "secteur_activite": "Distribution de carburants",
+      "annee_creation": 1996
+    }
+  },
+  {
+    "nom": "SUPERMARCHE LE PANIER VERT",
+    "type": "supermarche",
+    "pays": "FR",
+    "informations": {
+      "forme_juridique": "SAS",
+      "secteur_activite": "Commerce alimentaire",
+      "annee_creation": 2005
+    }
+  },
+  {
+    "nom": "TRAITEMENT EDUCATION NATIONALE",
+    "type": "employeur",
+    "pays": "FR",
+    "informations": {
+      "forme_juridique": "Administration publique",
+      "secteur_activite": "Enseignement"
+    }
+  },
+  {
+    "nom": "TRAITEUR LES SAVEURS DU MARCHE",
+    "type": "traiteur",
+    "pays": "FR",
+    "informations": {
+      "forme_juridique": "SARL",
+      "secteur_activite": "Traiteur et événementiel",
+      "annee_creation": 2010
+    }
+  },
+  {
+    "nom": "VOYAGES HORIZONS LOINTAINS",
+    "type": "agence_voyages",
+    "pays": "FR",
+    "informations": {
+      "forme_juridique": "SARL",
+      "secteur_activite": "Agence de voyages",
+      "annee_creation": 2007
+    }
+  }
+]
