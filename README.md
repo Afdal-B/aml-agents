@@ -22,7 +22,7 @@ Une hallucination du modèle ne peut donc pas, à elle seule, faire déclarer un
 Synthétiques, construites à partir du cas n°13 du rapport Tracfin *LCB-FT : état de la menace
 2024-2025* (détournement de subventions via une association). Les montants agrégés sont ceux du
 rapport, les noms sont fictifs. Un client légitime déclenche la même règle d'alerte pour mesurer
-les faux positifs. Détails : [data/LISEZMOI.md](data/LISEZMOI.md).
+les faux positifs. Détails : [data/LISEZMOI.md](data/README.md).
 
 ## Évaluation (5 exécutions par alerte)
 
