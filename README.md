@@ -1,6 +1,6 @@
 # Agent d'enquête anti-blanchiment (LCB-FT)
 
-**[▶️ Démo en ligne](https://VOTRE-APP.streamlit.app)**
+**[▶️ Démo en ligne](https://aml-agents.streamlit.app/)**
 
 Un agent LLM (LangGraph + Gemini) instruit des alertes de lutte contre le blanchiment ;
 **un code déterministe vérifie ses preuves et prend la décision**.
